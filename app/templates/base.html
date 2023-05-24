@@ -1,0 +1,25 @@
+{% extends 'bootstrap/base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block head %}
+    {% block styles %}
+        {{ super() }}
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    {% endblock %}
+    {% block style %}
+      
+    {% endblock %}
+{% endblock %}
+
+{% block body %}
+    {% block app_content %}
+
+    {% endblock %}
+    {% block scripts %}
+        {{ super() }}
+    {% endblock %}
+    {% block script %}
+    
+    {% endblock %}
+{% endblock %}

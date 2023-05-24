@@ -1,0 +1,13 @@
+FLASK_APP=run.py
+FLASK_ENV=development
+PORT=5000
+FLASK_DEBUG=1
+DATABASE_URL=postgresql+psycopg2://luisgc:Sk81398@localhost:5432/ARTISTS_DIARY
+TEMPLATE_FOLDER=templates
+MAIN=test.test
+#MAIL_SERVER=smtp.googlemail.com
+#MAIL_PORT=587
+#MAIL_USE_TLS=true
+#MAIL_USE_SSL=
+#MAIL_USERNAME=luis.gurrola.condor@gmail.com #botic.no.reply@gmail.com
+#MAIL_PASSWORD=Sk8040213 #b0t1c2x2x
