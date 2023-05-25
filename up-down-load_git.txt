@@ -1,0 +1,26 @@
+*: son los pasos que se realizan cuando se requiere subir un cambio sin repetir los demás pasos.
+
+CARGA REPO
+
+- Crear un repositorio en el perfil de Git.
+
+- Configurar las variables de entorno de git:
+git config --global user.email ""
+git config --global user.name ""
+
+- Realizar la incialización en la carpeta a cargar:
+git init
+git add .
+
+- Hacer el commit con un comentario descriptivo:
+git commit -m "Comentario con el cambio realizado." *
+
+- Agregar repositorio remoto y subir carpeta raíz:
+git remote add origin https://github.com/repositorio.git
+
+git push -u origin master *
+
+----------------------------------------------------------
+DESCARGA REPO
+
+git fetch repositorio_remoto
